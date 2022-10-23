@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBootstrap, faAngular, faFontAwesome } from "@fortawesome/free-brands-svg-icons";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'weather';
+
+  faBootstrap = faBootstrap;
+  faAngular = faAngular;
+  faFontAwesome = faFontAwesome;
+
+
 }
